@@ -25,6 +25,15 @@ coproc process1 or thread1
 function_name() {commands}
 
 
+# .bashrc non-login shell on Mac 
+# .bash_profile login shell on Mac 
+
+# Add path to execute the .bashrc at $HOME/
+if [ -f ~/.bashrc ]; then 
+        source ~/.bashrc 
+fi
+
+
 
 #my bash prompt messy one
 function setprompt
