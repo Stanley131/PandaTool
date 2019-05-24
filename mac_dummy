@@ -1,0 +1,6 @@
+# download mac tools 
+
+xcode-select install 
+
+#details about where the tools are: /Library/Developer/CommandLineToools/
+
