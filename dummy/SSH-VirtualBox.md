@@ -21,3 +21,14 @@ Protocol: TCP
 Host Port: some unused port on your host machine, e.g. 4118
 Guest Port: whatever port your guest machine is listening for ssh requests on, i.e. 22 by default.
 ### 6.[host]$ ssh -p <host-port> <username>@localhost
+
+### 7. SSH Configuration
+[host]$ mkdir -p ~/.ssh
+[host]$ touch ~/.ssh/config
+
+### 8. 
+Host panda
+    Hostname localhost
+    User stanley
+    Port 1314
+    ForwardAgent yes # optional
