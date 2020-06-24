@@ -7,3 +7,7 @@
 
 4. sudo apachetl start 
 
+
+5. If you have issues with permissions,  
+`sudo chown -R $(whoami) /usr/local` 
+
